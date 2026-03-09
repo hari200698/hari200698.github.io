@@ -1,0 +1,19 @@
+current directory: C:/Lab6_1/hari200698.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+C:/Ruby34-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Lab6_1/hari200698.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260309-27588-7jsgi sitelibdir\=./.gem.20260309-27588-7jsgi clean
+
+current directory: C:/Lab6_1/hari200698.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260309-27588-7jsgi sitelibdir\=./.gem.20260309-27588-7jsgi
+generating cparse-x64-mingw-ucrt.def
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: C:/Lab6_1/hari200698.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260309-27588-7jsgi sitelibdir\=./.gem.20260309-27588-7jsgi install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20260309-27588-7jsgi/racc
+
+current directory: C:/Lab6_1/hari200698.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260309-27588-7jsgi sitelibdir\=./.gem.20260309-27588-7jsgi clean

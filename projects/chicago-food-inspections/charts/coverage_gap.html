@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"grid": true, "gridColor": "#EEE", "labelFontSize": 11, "titleFontSize": 12}}, "layer": [{"data": {"name": "data-9d78020f76d997398dca41cfa4b6d9e0"}, "mark": {"type": "rule", "color": "#888", "strokeDash": [4, 4], "strokeWidth": 1.5}, "encoding": {"y": {"field": "y", "type": "quantitative"}}}, {"data": {"name": "data-bedd263b1bca9af8fba9af2f6999057f"}, "mark": {"type": "text", "align": "left", "color": "#888", "dx": 5, "dy": -6, "fontSize": 10}, "encoding": {"text": {"field": "label", "type": "nominal"}, "x": {"value": 8}, "y": {"field": "y", "type": "quantitative"}}}, {"data": {"name": "data-be7550109ec865001c0ae1ca25e0b845"}, "mark": {"type": "line", "color": "#2c3e50", "point": {"color": "#2c3e50", "filled": true, "size": 80}, "strokeWidth": 3}, "encoding": {"tooltip": [{"field": "Year", "type": "ordinal"}, {"field": "Active Licenses", "format": ",", "type": "quantitative"}, {"field": "Establishments Inspected", "format": ",", "type": "quantitative"}, {"field": "Uninspected", "format": ",", "type": "quantitative"}, {"field": "Coverage % (capped)", "format": ".1f", "title": "Coverage %", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Year", "title": "Year", "type": "ordinal"}, "y": {"field": "Coverage % (capped)", "scale": {"domain": [60, 100]}, "title": "Coverage (% of active food licenses inspected)", "type": "quantitative"}}}, {"data": {"name": "data-16c5f614b604c796c40a5f31067bf898"}, "mark": {"type": "circle", "color": "#c0392b", "opacity": 0.9, "size": 250}, "encoding": {"x": {"field": "Year", "type": "ordinal"}, "y": {"field": "Coverage % (capped)", "type": "quantitative"}}}, {"data": {"name": "data-82a17ef3a1806cf89216a885fce7eedf"}, "mark": {"type": "text", "align": "left", "color": "#c0392b", "dx": 8, "fontSize": 11, "fontWeight": "bold"}, "encoding": {"text": {"field": "label", "type": "nominal"}, "x": {"field": "Year", "type": "ordinal"}, "y": {"field": "y_label", "type": "quantitative"}}}], "height": 420, "title": {"text": "Did Inspectors Keep Up? Coverage of Active Food Licenses, 2010\u20132025", "anchor": "start", "color": "#2c3e50", "fontSize": 15, "subtitle": "% of Chicago's active food-licensed establishments that received at least one inspection that year.", "subtitleColor": "#666", "subtitleFontSize": 11}, "width": 1000, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-9d78020f76d997398dca41cfa4b6d9e0": [{"y": 100}], "data-bedd263b1bca9af8fba9af2f6999057f": [{"y": 100, "label": "Full coverage (100%)"}], "data-be7550109ec865001c0ae1ca25e0b845": [{"Year": 2010, "Active Licenses": 13767, "Establishments Inspected": 11152, "Uninspected": 2615, "Coverage %": 81.0, "Coverage % (capped)": 81.0}, {"Year": 2011, "Active Licenses": 13926, "Establishments Inspected": 11370, "Uninspected": 2556, "Coverage %": 81.6, "Coverage % (capped)": 81.6}, {"Year": 2012, "Active Licenses": 14176, "Establishments Inspected": 12825, "Uninspected": 1351, "Coverage %": 90.5, "Coverage % (capped)": 90.5}, {"Year": 2013, "Active Licenses": 13843, "Establishments Inspected": 14317, "Uninspected": -474, "Coverage %": 103.4, "Coverage % (capped)": 100.0}, {"Year": 2014, "Active Licenses": 13452, "Establishments Inspected": 13302, "Uninspected": 150, "Coverage %": 98.9, "Coverage % (capped)": 98.9}, {"Year": 2015, "Active Licenses": 13231, "Establishments Inspected": 13536, "Uninspected": -305, "Coverage %": 102.3, "Coverage % (capped)": 100.0}, {"Year": 2016, "Active Licenses": 13225, "Establishments Inspected": 13367, "Uninspected": -142, "Coverage %": 101.1, "Coverage % (capped)": 100.0}, {"Year": 2017, "Active Licenses": 13094, "Establishments Inspected": 12957, "Uninspected": 137, "Coverage %": 99.0, "Coverage % (capped)": 99.0}, {"Year": 2018, "Active Licenses": 13031, "Establishments Inspected": 11014, "Uninspected": 2017, "Coverage %": 84.5, "Coverage % (capped)": 84.5}, {"Year": 2019, "Active Licenses": 13028, "Establishments Inspected": 12592, "Uninspected": 436, "Coverage %": 96.7, "Coverage % (capped)": 96.7}, {"Year": 2020, "Active Licenses": 12889, "Establishments Inspected": 10148, "Uninspected": 2741, "Coverage %": 78.7, "Coverage % (capped)": 78.7}, {"Year": 2021, "Active Licenses": 13283, "Establishments Inspected": 10365, "Uninspected": 2918, "Coverage %": 78.0, "Coverage % (capped)": 78.0}, {"Year": 2022, "Active Licenses": 12223, "Establishments Inspected": 10982, "Uninspected": 1241, "Coverage %": 89.8, "Coverage % (capped)": 89.8}, {"Year": 2023, "Active Licenses": 12395, "Establishments Inspected": 11643, "Uninspected": 752, "Coverage %": 93.9, "Coverage % (capped)": 93.9}, {"Year": 2024, "Active Licenses": 12412, "Establishments Inspected": 12465, "Uninspected": -53, "Coverage %": 100.4, "Coverage % (capped)": 100.0}, {"Year": 2025, "Active Licenses": 12252, "Establishments Inspected": 12131, "Uninspected": 121, "Coverage %": 99.0, "Coverage % (capped)": 99.0}], "data-16c5f614b604c796c40a5f31067bf898": [{"Year": 2020, "Active Licenses": 12889, "Establishments Inspected": 10148, "Uninspected": 2741, "Coverage %": 78.7, "Coverage % (capped)": 78.7}, {"Year": 2021, "Active Licenses": 13283, "Establishments Inspected": 10365, "Uninspected": 2918, "Coverage %": 78.0, "Coverage % (capped)": 78.0}], "data-82a17ef3a1806cf89216a885fce7eedf": [{"Year": 2018, "y_label": 80.0, "label": "2018: New violation rules"}, {"Year": 2020, "y_label": 74.0, "label": "2020\u201321: ~2,800 licensed"}, {"Year": 2021, "y_label": 71.0, "label": "establishments uninspected"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

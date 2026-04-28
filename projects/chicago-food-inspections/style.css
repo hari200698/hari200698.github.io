@@ -116,16 +116,13 @@ h1 {
 
 .viz iframe {
   width: 100%;
+  height: 520px;
   border: none;
   display: block;
 }
 
 .viz-hero iframe {
   height: 780px;
-}
-
-.viz iframe {
-  height: 520px;
 }
 
 .viz figcaption {

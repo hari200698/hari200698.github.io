@@ -1,5 +1,7 @@
 /* ===== Typography & layout — data journalism feel ===== */
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -11,13 +13,28 @@ body {
 }
 
 .story {
-  max-width: 760px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 60px 24px 80px;
 }
 
+/* Text-heavy sections stay narrow for readability */
+.hero,
+.prose,
+.methodology,
+.story-footer {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ===== Hero ===== */
-.hero { margin-bottom: 50px; border-bottom: 1px solid #e0e0d8; padding-bottom: 40px; }
+.hero {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #e0e0d8;
+  padding-bottom: 40px;
+}
+
 .kicker {
   font-family: 'Helvetica Neue', sans-serif;
   text-transform: uppercase;
@@ -27,6 +44,7 @@ body {
   font-weight: 700;
   margin: 0 0 16px;
 }
+
 h1 {
   font-family: 'Georgia', serif;
   font-size: 42px;
@@ -35,12 +53,14 @@ h1 {
   margin: 0 0 24px;
   color: #1a1a1a;
 }
+
 .byline {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 14px;
   color: #555;
   margin: 0 0 24px;
 }
+
 .dek {
   font-size: 21px;
   line-height: 1.5;
@@ -50,7 +70,10 @@ h1 {
 }
 
 /* ===== Body prose ===== */
-.prose { margin: 40px 0; }
+.prose {
+  margin: 40px auto;
+}
+
 .prose h2 {
   font-family: 'Georgia', serif;
   font-size: 28px;
@@ -58,39 +81,61 @@ h1 {
   margin: 50px 0 20px;
   color: #1a1a1a;
 }
-.prose p { margin: 0 0 22px; }
-.prose em { font-style: italic; color: #444; }
-.prose strong { font-weight: 700; }
 
-/* ===== Viz blocks ===== */
+.prose p {
+  margin: 0 0 22px;
+}
+
+.prose em {
+  font-style: italic;
+  color: #444;
+}
+
+.prose strong {
+  font-weight: 700;
+}
+
+/* ===== Viz blocks — break out wider than the text column ===== */
 .viz {
-  margin: 50px -100px;
-  padding: 20px 0;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 1400px;
+  padding: 30px 20px;
   background: #fff;
   border-top: 1px solid #e0e0d8;
   border-bottom: 1px solid #e0e0d8;
 }
+
 .viz-hero {
-  margin: 60px -150px;
-  padding: 30px 0;
+  margin: 60px auto;
+  width: 100%;
+  max-width: 1400px;
+  padding: 40px 20px;
   background: #fff;
 }
+
 .viz iframe {
   width: 100%;
   border: none;
   display: block;
 }
-.viz-hero iframe { height: 720px; }
-.viz iframe { height: 480px; }
+
+.viz-hero iframe {
+  height: 780px;
+}
+
+.viz iframe {
+  height: 520px;
+}
 
 .viz figcaption {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 14px;
   color: #555;
   line-height: 1.5;
-  max-width: 700px;
+  max-width: 760px;
   margin: 16px auto 0;
-  padding: 0 24px;
+  padding: 0 20px;
   text-align: left;
 }
 
@@ -103,11 +148,13 @@ h1 {
   font-size: 15px;
   line-height: 1.55;
 }
+
 .methodology h2 {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 22px;
   margin: 0 0 24px;
 }
+
 .methodology h3 {
   font-size: 14px;
   text-transform: uppercase;
@@ -115,9 +162,19 @@ h1 {
   color: #c0392b;
   margin: 28px 0 8px;
 }
-.methodology p { margin: 0 0 12px; }
-.methodology a { color: #2c3e50; text-decoration: underline; }
-.methodology a:hover { color: #c0392b; }
+
+.methodology p {
+  margin: 0 0 12px;
+}
+
+.methodology a {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+
+.methodology a:hover {
+  color: #c0392b;
+}
 
 /* ===== Footer ===== */
 .story-footer {
@@ -131,15 +188,38 @@ h1 {
 }
 
 /* ===== Responsive ===== */
-@media (max-width: 900px) {
-  .viz, .viz-hero { margin-left: -24px; margin-right: -24px; }
-  .viz-hero iframe { height: 600px; }
+@media (max-width: 1000px) {
+  .viz iframe {
+    height: 460px;
+  }
+
+  .viz-hero iframe {
+    height: 640px;
+  }
 }
+
 @media (max-width: 600px) {
-  .story { padding: 40px 20px 60px; }
-  h1 { font-size: 30px; }
-  .dek { font-size: 18px; }
-  body { font-size: 17px; }
-  .viz iframe { height: 400px; }
-  .viz-hero iframe { height: 520px; }
+  .story {
+    padding: 40px 16px 60px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .dek {
+    font-size: 18px;
+  }
+
+  body {
+    font-size: 17px;
+  }
+
+  .viz iframe {
+    height: 380px;
+  }
+
+  .viz-hero iframe {
+    height: 520px;
+  }
 }

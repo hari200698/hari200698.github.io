@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chicago's 2018 Pass-Rate Cliff — A Data Story</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<article class="story">
+
+  <header class="hero">
+    <p class="kicker">Food Safety · Chicago · 2010–2025</p>
+    <h1>Chicago Bakeries Didn't Get Dirtier in 2019.<br />The Rulebook Just Got Stricter.</h1>
+    <p class="byline">
+      By <strong>Gayatri Mahindrakar</strong> &amp; <strong>Harisankar Kartha</strong>
+      · IS&nbsp;445, Group 5
+    </p>
+    <p class="dek">
+      Between 2017 and 2019, the share of Chicago bakery inspections ending in a clean
+      pass plummeted from roughly 70% to under 19%. Restaurants and grocery stores fell
+      almost as far. The cause wasn't a citywide hygiene collapse — it was a single
+      regulatory change that almost no one outside of the Chicago Department of Public
+      Health noticed at the time.
+    </p>
+  </header>
+
+  <!-- ===== Paragraph 1: The hook ===== -->
+  <section class="prose">
+    <p>
+      Every year, the Chicago Department of Public Health (CDPH) sends inspectors to
+      tens of thousands of food establishments — restaurants, grocery stores, schools,
+      bakeries, daycares, long-term-care facilities. Each visit ends in one of three
+      outcomes: <em>Pass</em>, <em>Pass with Conditions</em>, or <em>Fail</em>. Across
+      the 246,990 inspections we analyzed from 2010 through 2025, restaurants alone
+      account for roughly 175,000 of them — nearly six times more than any other
+      facility type.
+    </p>
+    <p>
+      For most of the 2010s, somewhere around two-thirds of those inspections came
+      back as straight passes. Then 2018 happened.
+    </p>
+  </section>
+
+  <!-- ===== Central interactive visualization ===== -->
+  <figure class="viz viz-hero">
+    <iframe src="charts/main_dashboard.html" loading="lazy" title="Pass rates by facility type, 2010-2025"></iframe>
+    <figcaption>
+      <strong>Explore it yourself.</strong> Each panel is one facility type.
+      Drag a range on the bottom timeline to focus the panels on a specific window
+      of years. Hover any point for the exact pass rate and inspection count.
+    </figcaption>
+  </figure>
+
+  <!-- ===== Paragraph 2: What happened ===== -->
+  <section class="prose">
+    <h2>The July 2018 Cliff</h2>
+    <p>
+      In July 2018, CDPH overhauled how its inspectors classify violations.
+      Conditions that had previously been logged as minor were reclassified as
+      "priority" or "priority foundation" issues — the kind that, under the new
+      framework, could push an inspection from <em>Pass</em> into <em>Pass with
+      Conditions</em> or even <em>Fail</em>. Nothing about the underlying
+      cleanliness of Chicago kitchens changed overnight. The yardstick did.
+    </p>
+    <p>
+      The result, visible in nearly every panel above, is a synchronized collapse
+      of pass rates between 2017 and 2019. The chart below makes the size of the
+      drop concrete.
+    </p>
+  </section>
+
+  <!-- ===== Contextual viz 1: dumbbell ===== -->
+  <figure class="viz">
+    <iframe src="charts/before_after.html" loading="lazy" title="Pass rates 2017 vs 2019"></iframe>
+    <figcaption>
+      Each row compares one facility type's pass rate in 2017 (green dot) to 2019
+      (red dot). Bakeries lost the most ground — over 50 percentage points in two
+      years. Schools, which face the strictest baseline scrutiny year-round, fell
+      the least.
+    </figcaption>
+  </figure>
+
+  <!-- ===== Paragraph 3: Recovery divergence ===== -->
+  <section class="prose">
+    <h2>Different Sectors, Different Recoveries</h2>
+    <p>
+      What's most interesting in the post-2019 data isn't the drop itself — it's
+      who recovered, and how fast. Childcare facilities (Children's Services
+      Facilities and the two daycare categories) climbed back to pass rates of
+      65–77% by 2025. Restaurants, grocery stores, and bakeries did not. They sit
+      stubbornly in the 60–65% range, even five years on.
+    </p>
+    <p>
+      A second, smaller dip in 2020 cuts across every facility type. That one's
+      easier to explain: COVID-19 collapsed the volume of in-person inspections,
+      and the inspections that did happen tended to focus on the most at-risk
+      establishments. Both effects show up clearly in the heatmap below.
+    </p>
+  </section>
+
+  <!-- ===== Contextual viz 2: heatmap ===== -->
+  <figure class="viz">
+    <iframe src="charts/heatmap.html" loading="lazy" title="Pass rate heatmap by facility type and year"></iframe>
+    <figcaption>
+      Each cell shows the pass rate for one facility type in one year. The
+      2018–2019 column is a wall of red across nearly every row — a structural
+      change, not a behavioral one.
+    </figcaption>
+  </figure>
+
+  <!-- ===== Paragraph 4: What it means ===== -->
+  <section class="prose">
+    <h2>What This Means for Chicago Diners</h2>
+    <p>
+      A reader scanning a 2024 inspection report and a 2014 report side-by-side
+      could be forgiven for thinking Chicago's food scene got measurably worse.
+      It didn't — at least not by the underlying measure. What changed is the
+      definition of "good enough." That distinction matters: pass-rate trends
+      are increasingly used by journalists, ratings sites, and even insurance
+      underwriters as a proxy for food safety. When the definition shifts under
+      everyone's feet without a corresponding public communication campaign, the
+      data tells a story the city didn't intend to tell.
+    </p>
+    <p>
+      The good news: even under the stricter post-2018 framework, most Chicago
+      establishments still pass on their first try. The not-as-good news: the
+      gap between childcare facilities (which face mandatory annual inspections
+      and high-stakes enforcement) and the rest of the food economy is real and
+      persistent. Where you eat, increasingly, predicts how closely the city is
+      paying attention.
+    </p>
+  </section>
+
+  <!-- ===== Methodology + citations ===== -->
+  <section class="methodology">
+    <h2>Methodology &amp; Sources</h2>
+
+    <h3>Primary dataset</h3>
+    <p>
+      <strong>Chicago Food Inspections</strong>. City of Chicago Open Data Portal,
+      maintained by the Chicago Department of Public Health.
+      <a href="https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5"
+         target="_blank" rel="noopener">data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5</a>.
+      Accessed 2026. 309,328 raw records spanning January 2010 through April 2026; filtered
+      to 246,990 records with valid Pass/Fail/Pass-w-Conditions outcomes, valid risk
+      levels, and complete years (2010–2025), restricted to the 8 most-inspected
+      facility types.
+    </p>
+
+    <h3>Contextual dataset (referenced)</h3>
+    <p>
+      <strong>Chicago Business Licenses</strong>. City of Chicago Open Data Portal.
+      <a href="https://data.cityofchicago.org/Community-Economic-Development/Business-Licenses/r5kz-chrr"
+         target="_blank" rel="noopener">data.cityofchicago.org/Community-Economic-Development/Business-Licenses/r5kz-chrr</a>.
+    </p>
+
+    <h3>Regulatory background</h3>
+    <p>
+      Chicago Department of Public Health, Food Protection Division. Public
+      announcement of revised violation classification framework, July 2018.
+    </p>
+
+    <h3>Analysis notebook</h3>
+    <p>
+      The full filtering, aggregation, and chart-generation pipeline is available as a
+      Jupyter notebook:
+      <a href="notebook/FP_Part2_IS445.ipynb" target="_blank" rel="noopener">FP_Part2_IS445.ipynb</a>
+      (also viewable directly on
+      <a href="https://github.com/hari200698/hari200698.github.io/blob/main/projects/chicago-food-inspections/notebook/FP_Part2_IS445.ipynb"
+         target="_blank" rel="noopener">GitHub</a>).
+    </p>
+
+    <h3>Tools</h3>
+    <p>
+      Python 3.11, pandas, Altair / Vega-Lite for interactive visualizations,
+      Jekyll + GitHub Pages for hosting.
+    </p>
+  </section>
+
+  <footer class="story-footer">
+    <p>IS 445 · Final Project Part 3 · Spring 2026</p>
+  </footer>
+
+</article>
+
+</body>
+</html>

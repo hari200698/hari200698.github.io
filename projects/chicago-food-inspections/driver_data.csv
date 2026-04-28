@@ -1,0 +1,25 @@
+Facility Type,Results,Count,Total per Facility,Percentage
+Bakery,Fail,934,3786,24.7
+Bakery,Pass,2241,3786,59.2
+Bakery,Pass w/ Conditions,611,3786,16.1
+Children's Services Facility,Fail,1222,6791,18.0
+Children's Services Facility,Pass,4683,6791,69.0
+Children's Services Facility,Pass w/ Conditions,886,6791,13.0
+Daycare (2 - 6 Years),Fail,634,2817,22.5
+Daycare (2 - 6 Years),Pass,1958,2817,69.5
+Daycare (2 - 6 Years),Pass w/ Conditions,225,2817,8.0
+Daycare Above and Under 2 Years,Fail,769,3755,20.5
+Daycare Above and Under 2 Years,Pass,2564,3755,68.3
+Daycare Above and Under 2 Years,Pass w/ Conditions,422,3755,11.2
+Grocery Store,Fail,8352,31855,26.2
+Grocery Store,Pass,18206,31855,57.2
+Grocery Store,Pass w/ Conditions,5297,31855,16.6
+Long Term Care,Fail,550,2228,24.7
+Long Term Care,Pass,1282,2228,57.5
+Long Term Care,Pass w/ Conditions,396,2228,17.8
+Restaurant,Fail,38490,177367,21.7
+Restaurant,Pass,104788,177367,59.1
+Restaurant,Pass w/ Conditions,34089,177367,19.2
+School,Fail,4112,18391,22.4
+School,Pass,12559,18391,68.3
+School,Pass w/ Conditions,1720,18391,9.4

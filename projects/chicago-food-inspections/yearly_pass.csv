@@ -1,0 +1,129 @@
+Facility Type,Year,Pass Rate,Total
+Bakery,2010,69.06,223
+Bakery,2011,69.93,286
+Bakery,2012,67.84,227
+Bakery,2013,73.86,241
+Bakery,2014,67.67,300
+Bakery,2015,70.25,279
+Bakery,2016,64.29,322
+Bakery,2017,67.43,261
+Bakery,2018,34.5,200
+Bakery,2019,18.75,224
+Bakery,2020,34.36,195
+Bakery,2021,45.56,180
+Bakery,2022,58.24,182
+Bakery,2023,57.5,200
+Bakery,2024,60.87,230
+Bakery,2025,64.41,236
+Children's Services Facility,2010,82.52,206
+Children's Services Facility,2011,75.2,250
+Children's Services Facility,2012,80.0,225
+Children's Services Facility,2013,79.27,193
+Children's Services Facility,2014,72.25,173
+Children's Services Facility,2015,76.19,420
+Children's Services Facility,2016,76.04,455
+Children's Services Facility,2017,75.3,502
+Children's Services Facility,2018,31.59,516
+Children's Services Facility,2019,46.57,554
+Children's Services Facility,2020,65.19,405
+Children's Services Facility,2021,70.3,505
+Children's Services Facility,2022,72.19,525
+Children's Services Facility,2023,74.45,634
+Children's Services Facility,2024,74.39,617
+Children's Services Facility,2025,77.41,611
+Daycare (2 - 6 Years),2010,67.29,425
+Daycare (2 - 6 Years),2011,73.3,352
+Daycare (2 - 6 Years),2012,69.77,301
+Daycare (2 - 6 Years),2013,76.0,150
+Daycare (2 - 6 Years),2014,78.1,137
+Daycare (2 - 6 Years),2015,76.33,207
+Daycare (2 - 6 Years),2016,81.25,192
+Daycare (2 - 6 Years),2017,80.59,170
+Daycare (2 - 6 Years),2018,28.87,142
+Daycare (2 - 6 Years),2019,50.38,133
+Daycare (2 - 6 Years),2020,67.47,83
+Daycare (2 - 6 Years),2021,67.62,105
+Daycare (2 - 6 Years),2022,73.49,83
+Daycare (2 - 6 Years),2023,62.5,128
+Daycare (2 - 6 Years),2024,72.55,102
+Daycare (2 - 6 Years),2025,76.64,107
+Daycare Above and Under 2 Years,2010,76.28,253
+Daycare Above and Under 2 Years,2011,79.92,239
+Daycare Above and Under 2 Years,2012,76.54,260
+Daycare Above and Under 2 Years,2013,77.78,153
+Daycare Above and Under 2 Years,2014,62.66,158
+Daycare Above and Under 2 Years,2015,80.33,239
+Daycare Above and Under 2 Years,2016,75.2,250
+Daycare Above and Under 2 Years,2017,75.85,265
+Daycare Above and Under 2 Years,2018,34.06,229
+Daycare Above and Under 2 Years,2019,42.86,273
+Daycare Above and Under 2 Years,2020,68.31,183
+Daycare Above and Under 2 Years,2021,70.66,242
+Daycare Above and Under 2 Years,2022,62.16,222
+Daycare Above and Under 2 Years,2023,64.06,281
+Daycare Above and Under 2 Years,2024,71.37,262
+Daycare Above and Under 2 Years,2025,75.61,246
+Grocery Store,2010,62.15,2544
+Grocery Store,2011,60.74,2807
+Grocery Store,2012,62.41,2490
+Grocery Store,2013,66.14,2581
+Grocery Store,2014,65.89,2562
+Grocery Store,2015,66.71,2250
+Grocery Store,2016,63.3,2308
+Grocery Store,2017,65.64,1921
+Grocery Store,2018,37.49,1523
+Grocery Store,2019,23.27,1513
+Grocery Store,2020,33.77,2206
+Grocery Store,2021,46.8,1295
+Grocery Store,2022,57.0,1421
+Grocery Store,2023,56.0,1491
+Grocery Store,2024,60.61,1546
+Grocery Store,2025,63.85,1397
+Long Term Care,2010,66.03,156
+Long Term Care,2011,71.76,85
+Long Term Care,2012,63.41,123
+Long Term Care,2013,69.39,49
+Long Term Care,2014,72.97,37
+Long Term Care,2015,73.46,162
+Long Term Care,2016,63.64,198
+Long Term Care,2017,65.52,174
+Long Term Care,2018,25.14,175
+Long Term Care,2019,39.55,177
+Long Term Care,2020,55.56,45
+Long Term Care,2021,42.54,134
+Long Term Care,2022,56.65,173
+Long Term Care,2023,61.58,177
+Long Term Care,2024,55.14,185
+Long Term Care,2025,64.61,178
+Restaurant,2010,65.62,10540
+Restaurant,2011,66.36,10815
+Restaurant,2012,67.31,10123
+Restaurant,2013,69.92,11736
+Restaurant,2014,67.29,13358
+Restaurant,2015,66.59,12318
+Restaurant,2016,64.22,14071
+Restaurant,2017,65.04,13109
+Restaurant,2018,43.27,10141
+Restaurant,2019,24.96,11264
+Restaurant,2020,45.43,8034
+Restaurant,2021,50.41,8965
+Restaurant,2022,55.59,9819
+Restaurant,2023,58.48,10501
+Restaurant,2024,60.63,11149
+Restaurant,2025,62.98,11424
+School,2010,81.5,1351
+School,2011,78.19,1380
+School,2012,75.26,1164
+School,2013,79.32,1146
+School,2014,75.71,1132
+School,2015,72.49,1145
+School,2016,67.25,1203
+School,2017,70.72,1134
+School,2018,58.41,1171
+School,2019,48.03,1091
+School,2020,58.62,899
+School,2021,64.19,1078
+School,2022,61.48,1137
+School,2023,63.23,1175
+School,2024,63.48,1109
+School,2025,67.19,1076

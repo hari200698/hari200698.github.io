@@ -1,0 +1,385 @@
+Facility Type,Year,Results,Count,Percentage
+Bakery,2010,Fail,62,27.8
+Bakery,2010,Pass,154,69.06
+Bakery,2010,Pass w/ Conditions,7,3.14
+Bakery,2011,Fail,67,23.43
+Bakery,2011,Pass,200,69.93
+Bakery,2011,Pass w/ Conditions,19,6.64
+Bakery,2012,Fail,61,26.87
+Bakery,2012,Pass,154,67.84
+Bakery,2012,Pass w/ Conditions,12,5.29
+Bakery,2013,Fail,47,19.5
+Bakery,2013,Pass,178,73.86
+Bakery,2013,Pass w/ Conditions,16,6.64
+Bakery,2014,Fail,69,23.0
+Bakery,2014,Pass,203,67.67
+Bakery,2014,Pass w/ Conditions,28,9.33
+Bakery,2015,Fail,59,21.15
+Bakery,2015,Pass,196,70.25
+Bakery,2015,Pass w/ Conditions,24,8.6
+Bakery,2016,Fail,82,25.47
+Bakery,2016,Pass,207,64.29
+Bakery,2016,Pass w/ Conditions,33,10.25
+Bakery,2017,Fail,61,23.37
+Bakery,2017,Pass,176,67.43
+Bakery,2017,Pass w/ Conditions,24,9.2
+Bakery,2018,Fail,57,28.5
+Bakery,2018,Pass,69,34.5
+Bakery,2018,Pass w/ Conditions,74,37.0
+Bakery,2019,Fail,61,27.23
+Bakery,2019,Pass,42,18.75
+Bakery,2019,Pass w/ Conditions,121,54.02
+Bakery,2020,Fail,59,30.26
+Bakery,2020,Pass,67,34.36
+Bakery,2020,Pass w/ Conditions,69,35.38
+Bakery,2021,Fail,47,26.11
+Bakery,2021,Pass,82,45.56
+Bakery,2021,Pass w/ Conditions,51,28.33
+Bakery,2022,Fail,42,23.08
+Bakery,2022,Pass,106,58.24
+Bakery,2022,Pass w/ Conditions,34,18.68
+Bakery,2023,Fail,55,27.5
+Bakery,2023,Pass,115,57.5
+Bakery,2023,Pass w/ Conditions,30,15.0
+Bakery,2024,Fail,54,23.48
+Bakery,2024,Pass,140,60.87
+Bakery,2024,Pass w/ Conditions,36,15.65
+Bakery,2025,Fail,51,21.61
+Bakery,2025,Pass,152,64.41
+Bakery,2025,Pass w/ Conditions,33,13.98
+Children's Services Facility,2010,Fail,35,16.99
+Children's Services Facility,2010,Pass,170,82.52
+Children's Services Facility,2010,Pass w/ Conditions,1,0.49
+Children's Services Facility,2011,Fail,48,19.2
+Children's Services Facility,2011,Pass,188,75.2
+Children's Services Facility,2011,Pass w/ Conditions,14,5.6
+Children's Services Facility,2012,Fail,32,14.22
+Children's Services Facility,2012,Pass,180,80.0
+Children's Services Facility,2012,Pass w/ Conditions,13,5.78
+Children's Services Facility,2013,Fail,35,18.13
+Children's Services Facility,2013,Pass,153,79.27
+Children's Services Facility,2013,Pass w/ Conditions,5,2.59
+Children's Services Facility,2014,Fail,43,24.86
+Children's Services Facility,2014,Pass,125,72.25
+Children's Services Facility,2014,Pass w/ Conditions,5,2.89
+Children's Services Facility,2015,Fail,82,19.52
+Children's Services Facility,2015,Pass,320,76.19
+Children's Services Facility,2015,Pass w/ Conditions,18,4.29
+Children's Services Facility,2016,Fail,80,17.58
+Children's Services Facility,2016,Pass,346,76.04
+Children's Services Facility,2016,Pass w/ Conditions,29,6.37
+Children's Services Facility,2017,Fail,88,17.53
+Children's Services Facility,2017,Pass,378,75.3
+Children's Services Facility,2017,Pass w/ Conditions,36,7.17
+Children's Services Facility,2018,Fail,91,17.64
+Children's Services Facility,2018,Pass,163,31.59
+Children's Services Facility,2018,Pass w/ Conditions,262,50.78
+Children's Services Facility,2019,Fail,103,18.59
+Children's Services Facility,2019,Pass,258,46.57
+Children's Services Facility,2019,Pass w/ Conditions,193,34.84
+Children's Services Facility,2020,Fail,77,19.01
+Children's Services Facility,2020,Pass,264,65.19
+Children's Services Facility,2020,Pass w/ Conditions,64,15.8
+Children's Services Facility,2021,Fail,91,18.02
+Children's Services Facility,2021,Pass,355,70.3
+Children's Services Facility,2021,Pass w/ Conditions,59,11.68
+Children's Services Facility,2022,Fail,101,19.24
+Children's Services Facility,2022,Pass,379,72.19
+Children's Services Facility,2022,Pass w/ Conditions,45,8.57
+Children's Services Facility,2023,Fail,120,18.93
+Children's Services Facility,2023,Pass,472,74.45
+Children's Services Facility,2023,Pass w/ Conditions,42,6.62
+Children's Services Facility,2024,Fail,109,17.67
+Children's Services Facility,2024,Pass,459,74.39
+Children's Services Facility,2024,Pass w/ Conditions,49,7.94
+Children's Services Facility,2025,Fail,87,14.24
+Children's Services Facility,2025,Pass,473,77.41
+Children's Services Facility,2025,Pass w/ Conditions,51,8.35
+Daycare (2 - 6 Years),2010,Fail,129,30.35
+Daycare (2 - 6 Years),2010,Pass,286,67.29
+Daycare (2 - 6 Years),2010,Pass w/ Conditions,10,2.35
+Daycare (2 - 6 Years),2011,Fail,81,23.01
+Daycare (2 - 6 Years),2011,Pass,258,73.3
+Daycare (2 - 6 Years),2011,Pass w/ Conditions,13,3.69
+Daycare (2 - 6 Years),2012,Fail,82,27.24
+Daycare (2 - 6 Years),2012,Pass,210,69.77
+Daycare (2 - 6 Years),2012,Pass w/ Conditions,9,2.99
+Daycare (2 - 6 Years),2013,Fail,33,22.0
+Daycare (2 - 6 Years),2013,Pass,114,76.0
+Daycare (2 - 6 Years),2013,Pass w/ Conditions,3,2.0
+Daycare (2 - 6 Years),2014,Fail,27,19.71
+Daycare (2 - 6 Years),2014,Pass,107,78.1
+Daycare (2 - 6 Years),2014,Pass w/ Conditions,3,2.19
+Daycare (2 - 6 Years),2015,Fail,34,16.43
+Daycare (2 - 6 Years),2015,Pass,158,76.33
+Daycare (2 - 6 Years),2015,Pass w/ Conditions,15,7.25
+Daycare (2 - 6 Years),2016,Fail,33,17.19
+Daycare (2 - 6 Years),2016,Pass,156,81.25
+Daycare (2 - 6 Years),2016,Pass w/ Conditions,3,1.56
+Daycare (2 - 6 Years),2017,Fail,28,16.47
+Daycare (2 - 6 Years),2017,Pass,137,80.59
+Daycare (2 - 6 Years),2017,Pass w/ Conditions,5,2.94
+Daycare (2 - 6 Years),2018,Fail,22,15.49
+Daycare (2 - 6 Years),2018,Pass,41,28.87
+Daycare (2 - 6 Years),2018,Pass w/ Conditions,79,55.63
+Daycare (2 - 6 Years),2019,Fail,23,17.29
+Daycare (2 - 6 Years),2019,Pass,67,50.38
+Daycare (2 - 6 Years),2019,Pass w/ Conditions,43,32.33
+Daycare (2 - 6 Years),2020,Fail,19,22.89
+Daycare (2 - 6 Years),2020,Pass,56,67.47
+Daycare (2 - 6 Years),2020,Pass w/ Conditions,8,9.64
+Daycare (2 - 6 Years),2021,Fail,22,20.95
+Daycare (2 - 6 Years),2021,Pass,71,67.62
+Daycare (2 - 6 Years),2021,Pass w/ Conditions,12,11.43
+Daycare (2 - 6 Years),2022,Fail,17,20.48
+Daycare (2 - 6 Years),2022,Pass,61,73.49
+Daycare (2 - 6 Years),2022,Pass w/ Conditions,5,6.02
+Daycare (2 - 6 Years),2023,Fail,44,34.38
+Daycare (2 - 6 Years),2023,Pass,80,62.5
+Daycare (2 - 6 Years),2023,Pass w/ Conditions,4,3.12
+Daycare (2 - 6 Years),2024,Fail,20,19.61
+Daycare (2 - 6 Years),2024,Pass,74,72.55
+Daycare (2 - 6 Years),2024,Pass w/ Conditions,8,7.84
+Daycare (2 - 6 Years),2025,Fail,20,18.69
+Daycare (2 - 6 Years),2025,Pass,82,76.64
+Daycare (2 - 6 Years),2025,Pass w/ Conditions,5,4.67
+Daycare Above and Under 2 Years,2010,Fail,56,22.13
+Daycare Above and Under 2 Years,2010,Pass,193,76.28
+Daycare Above and Under 2 Years,2010,Pass w/ Conditions,4,1.58
+Daycare Above and Under 2 Years,2011,Fail,39,16.32
+Daycare Above and Under 2 Years,2011,Pass,191,79.92
+Daycare Above and Under 2 Years,2011,Pass w/ Conditions,9,3.77
+Daycare Above and Under 2 Years,2012,Fail,45,17.31
+Daycare Above and Under 2 Years,2012,Pass,199,76.54
+Daycare Above and Under 2 Years,2012,Pass w/ Conditions,16,6.15
+Daycare Above and Under 2 Years,2013,Fail,33,21.57
+Daycare Above and Under 2 Years,2013,Pass,119,77.78
+Daycare Above and Under 2 Years,2013,Pass w/ Conditions,1,0.65
+Daycare Above and Under 2 Years,2014,Fail,45,28.48
+Daycare Above and Under 2 Years,2014,Pass,99,62.66
+Daycare Above and Under 2 Years,2014,Pass w/ Conditions,14,8.86
+Daycare Above and Under 2 Years,2015,Fail,31,12.97
+Daycare Above and Under 2 Years,2015,Pass,192,80.33
+Daycare Above and Under 2 Years,2015,Pass w/ Conditions,16,6.69
+Daycare Above and Under 2 Years,2016,Fail,46,18.4
+Daycare Above and Under 2 Years,2016,Pass,188,75.2
+Daycare Above and Under 2 Years,2016,Pass w/ Conditions,16,6.4
+Daycare Above and Under 2 Years,2017,Fail,52,19.62
+Daycare Above and Under 2 Years,2017,Pass,201,75.85
+Daycare Above and Under 2 Years,2017,Pass w/ Conditions,12,4.53
+Daycare Above and Under 2 Years,2018,Fail,30,13.1
+Daycare Above and Under 2 Years,2018,Pass,78,34.06
+Daycare Above and Under 2 Years,2018,Pass w/ Conditions,121,52.84
+Daycare Above and Under 2 Years,2019,Fail,72,26.37
+Daycare Above and Under 2 Years,2019,Pass,117,42.86
+Daycare Above and Under 2 Years,2019,Pass w/ Conditions,84,30.77
+Daycare Above and Under 2 Years,2020,Fail,34,18.58
+Daycare Above and Under 2 Years,2020,Pass,125,68.31
+Daycare Above and Under 2 Years,2020,Pass w/ Conditions,24,13.11
+Daycare Above and Under 2 Years,2021,Fail,47,19.42
+Daycare Above and Under 2 Years,2021,Pass,171,70.66
+Daycare Above and Under 2 Years,2021,Pass w/ Conditions,24,9.92
+Daycare Above and Under 2 Years,2022,Fail,57,25.68
+Daycare Above and Under 2 Years,2022,Pass,138,62.16
+Daycare Above and Under 2 Years,2022,Pass w/ Conditions,27,12.16
+Daycare Above and Under 2 Years,2023,Fail,77,27.4
+Daycare Above and Under 2 Years,2023,Pass,180,64.06
+Daycare Above and Under 2 Years,2023,Pass w/ Conditions,24,8.54
+Daycare Above and Under 2 Years,2024,Fail,61,23.28
+Daycare Above and Under 2 Years,2024,Pass,187,71.37
+Daycare Above and Under 2 Years,2024,Pass w/ Conditions,14,5.34
+Daycare Above and Under 2 Years,2025,Fail,44,17.89
+Daycare Above and Under 2 Years,2025,Pass,186,75.61
+Daycare Above and Under 2 Years,2025,Pass w/ Conditions,16,6.5
+Grocery Store,2010,Fail,800,31.45
+Grocery Store,2010,Pass,1581,62.15
+Grocery Store,2010,Pass w/ Conditions,163,6.41
+Grocery Store,2011,Fail,916,32.63
+Grocery Store,2011,Pass,1705,60.74
+Grocery Store,2011,Pass w/ Conditions,186,6.63
+Grocery Store,2012,Fail,720,28.92
+Grocery Store,2012,Pass,1554,62.41
+Grocery Store,2012,Pass w/ Conditions,216,8.67
+Grocery Store,2013,Fail,622,24.1
+Grocery Store,2013,Pass,1707,66.14
+Grocery Store,2013,Pass w/ Conditions,252,9.76
+Grocery Store,2014,Fail,595,23.22
+Grocery Store,2014,Pass,1688,65.89
+Grocery Store,2014,Pass w/ Conditions,279,10.89
+Grocery Store,2015,Fail,485,21.56
+Grocery Store,2015,Pass,1501,66.71
+Grocery Store,2015,Pass w/ Conditions,264,11.73
+Grocery Store,2016,Fail,565,24.48
+Grocery Store,2016,Pass,1461,63.3
+Grocery Store,2016,Pass w/ Conditions,282,12.22
+Grocery Store,2017,Fail,466,24.26
+Grocery Store,2017,Pass,1261,65.64
+Grocery Store,2017,Pass w/ Conditions,194,10.1
+Grocery Store,2018,Fail,442,29.02
+Grocery Store,2018,Pass,571,37.49
+Grocery Store,2018,Pass w/ Conditions,510,33.49
+Grocery Store,2019,Fail,388,25.64
+Grocery Store,2019,Pass,352,23.27
+Grocery Store,2019,Pass w/ Conditions,773,51.09
+Grocery Store,2020,Fail,588,26.65
+Grocery Store,2020,Pass,745,33.77
+Grocery Store,2020,Pass w/ Conditions,873,39.57
+Grocery Store,2021,Fail,322,24.86
+Grocery Store,2021,Pass,606,46.8
+Grocery Store,2021,Pass w/ Conditions,367,28.34
+Grocery Store,2022,Fail,353,24.84
+Grocery Store,2022,Pass,810,57.0
+Grocery Store,2022,Pass w/ Conditions,258,18.16
+Grocery Store,2023,Fail,409,27.43
+Grocery Store,2023,Pass,835,56.0
+Grocery Store,2023,Pass w/ Conditions,247,16.57
+Grocery Store,2024,Fail,356,23.03
+Grocery Store,2024,Pass,937,60.61
+Grocery Store,2024,Pass w/ Conditions,253,16.36
+Grocery Store,2025,Fail,325,23.26
+Grocery Store,2025,Pass,892,63.85
+Grocery Store,2025,Pass w/ Conditions,180,12.88
+Long Term Care,2010,Fail,33,21.15
+Long Term Care,2010,Pass,103,66.03
+Long Term Care,2010,Pass w/ Conditions,20,12.82
+Long Term Care,2011,Fail,18,21.18
+Long Term Care,2011,Pass,61,71.76
+Long Term Care,2011,Pass w/ Conditions,6,7.06
+Long Term Care,2012,Fail,21,17.07
+Long Term Care,2012,Pass,78,63.41
+Long Term Care,2012,Pass w/ Conditions,24,19.51
+Long Term Care,2013,Fail,10,20.41
+Long Term Care,2013,Pass,34,69.39
+Long Term Care,2013,Pass w/ Conditions,5,10.2
+Long Term Care,2014,Fail,9,24.32
+Long Term Care,2014,Pass,27,72.97
+Long Term Care,2014,Pass w/ Conditions,1,2.7
+Long Term Care,2015,Fail,31,19.14
+Long Term Care,2015,Pass,119,73.46
+Long Term Care,2015,Pass w/ Conditions,12,7.41
+Long Term Care,2016,Fail,42,21.21
+Long Term Care,2016,Pass,126,63.64
+Long Term Care,2016,Pass w/ Conditions,30,15.15
+Long Term Care,2017,Fail,44,25.29
+Long Term Care,2017,Pass,114,65.52
+Long Term Care,2017,Pass w/ Conditions,16,9.2
+Long Term Care,2018,Fail,55,31.43
+Long Term Care,2018,Pass,44,25.14
+Long Term Care,2018,Pass w/ Conditions,76,43.43
+Long Term Care,2019,Fail,47,26.55
+Long Term Care,2019,Pass,70,39.55
+Long Term Care,2019,Pass w/ Conditions,60,33.9
+Long Term Care,2020,Fail,9,20.0
+Long Term Care,2020,Pass,25,55.56
+Long Term Care,2020,Pass w/ Conditions,11,24.44
+Long Term Care,2021,Fail,39,29.1
+Long Term Care,2021,Pass,57,42.54
+Long Term Care,2021,Pass w/ Conditions,38,28.36
+Long Term Care,2022,Fail,53,30.64
+Long Term Care,2022,Pass,98,56.65
+Long Term Care,2022,Pass w/ Conditions,22,12.72
+Long Term Care,2023,Fail,50,28.25
+Long Term Care,2023,Pass,109,61.58
+Long Term Care,2023,Pass w/ Conditions,18,10.17
+Long Term Care,2024,Fail,50,27.03
+Long Term Care,2024,Pass,102,55.14
+Long Term Care,2024,Pass w/ Conditions,33,17.84
+Long Term Care,2025,Fail,39,21.91
+Long Term Care,2025,Pass,115,64.61
+Long Term Care,2025,Pass w/ Conditions,24,13.48
+Restaurant,2010,Fail,2526,23.97
+Restaurant,2010,Pass,6916,65.62
+Restaurant,2010,Pass w/ Conditions,1098,10.42
+Restaurant,2011,Fail,2488,23.01
+Restaurant,2011,Pass,7177,66.36
+Restaurant,2011,Pass w/ Conditions,1150,10.63
+Restaurant,2012,Fail,2159,21.33
+Restaurant,2012,Pass,6814,67.31
+Restaurant,2012,Pass w/ Conditions,1150,11.36
+Restaurant,2013,Fail,2177,18.55
+Restaurant,2013,Pass,8206,69.92
+Restaurant,2013,Pass w/ Conditions,1353,11.53
+Restaurant,2014,Fail,2531,18.95
+Restaurant,2014,Pass,8988,67.29
+Restaurant,2014,Pass w/ Conditions,1839,13.77
+Restaurant,2015,Fail,2479,20.13
+Restaurant,2015,Pass,8203,66.59
+Restaurant,2015,Pass w/ Conditions,1636,13.28
+Restaurant,2016,Fail,2954,20.99
+Restaurant,2016,Pass,9036,64.22
+Restaurant,2016,Pass w/ Conditions,2081,14.79
+Restaurant,2017,Fail,2888,22.03
+Restaurant,2017,Pass,8526,65.04
+Restaurant,2017,Pass w/ Conditions,1695,12.93
+Restaurant,2018,Fail,2125,20.95
+Restaurant,2018,Pass,4388,43.27
+Restaurant,2018,Pass w/ Conditions,3628,35.78
+Restaurant,2019,Fail,2458,21.82
+Restaurant,2019,Pass,2811,24.96
+Restaurant,2019,Pass w/ Conditions,5995,53.22
+Restaurant,2020,Fail,1798,22.38
+Restaurant,2020,Pass,3650,45.43
+Restaurant,2020,Pass w/ Conditions,2586,32.19
+Restaurant,2021,Fail,2076,23.16
+Restaurant,2021,Pass,4519,50.41
+Restaurant,2021,Pass w/ Conditions,2370,26.44
+Restaurant,2022,Fail,2447,24.92
+Restaurant,2022,Pass,5458,55.59
+Restaurant,2022,Pass w/ Conditions,1914,19.49
+Restaurant,2023,Fail,2559,24.37
+Restaurant,2023,Pass,6141,58.48
+Restaurant,2023,Pass w/ Conditions,1801,17.15
+Restaurant,2024,Fail,2402,21.54
+Restaurant,2024,Pass,6760,60.63
+Restaurant,2024,Pass w/ Conditions,1987,17.82
+Restaurant,2025,Fail,2423,21.21
+Restaurant,2025,Pass,7195,62.98
+Restaurant,2025,Pass w/ Conditions,1806,15.81
+School,2010,Fail,191,14.14
+School,2010,Pass,1101,81.5
+School,2010,Pass w/ Conditions,59,4.37
+School,2011,Fail,238,17.25
+School,2011,Pass,1079,78.19
+School,2011,Pass w/ Conditions,63,4.57
+School,2012,Fail,244,20.96
+School,2012,Pass,876,75.26
+School,2012,Pass w/ Conditions,44,3.78
+School,2013,Fail,192,16.75
+School,2013,Pass,909,79.32
+School,2013,Pass w/ Conditions,45,3.93
+School,2014,Fail,206,18.2
+School,2014,Pass,857,75.71
+School,2014,Pass w/ Conditions,69,6.1
+School,2015,Fail,232,20.26
+School,2015,Pass,830,72.49
+School,2015,Pass w/ Conditions,83,7.25
+School,2016,Fail,299,24.85
+School,2016,Pass,809,67.25
+School,2016,Pass w/ Conditions,95,7.9
+School,2017,Fail,253,22.31
+School,2017,Pass,802,70.72
+School,2017,Pass w/ Conditions,79,6.97
+School,2018,Fail,316,26.99
+School,2018,Pass,684,58.41
+School,2018,Pass w/ Conditions,171,14.6
+School,2019,Fail,254,23.28
+School,2019,Pass,524,48.03
+School,2019,Pass w/ Conditions,313,28.69
+School,2020,Fail,223,24.81
+School,2020,Pass,527,58.62
+School,2020,Pass w/ Conditions,149,16.57
+School,2021,Fail,252,23.38
+School,2021,Pass,692,64.19
+School,2021,Pass w/ Conditions,134,12.43
+School,2022,Fail,331,29.11
+School,2022,Pass,699,61.48
+School,2022,Pass w/ Conditions,107,9.41
+School,2023,Fail,334,28.43
+School,2023,Pass,743,63.23
+School,2023,Pass w/ Conditions,98,8.34
+School,2024,Fail,288,25.97
+School,2024,Pass,704,63.48
+School,2024,Pass w/ Conditions,117,10.55
+School,2025,Fail,259,24.07
+School,2025,Pass,723,67.19
+School,2025,Pass w/ Conditions,94,8.74

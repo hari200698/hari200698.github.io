@@ -26,7 +26,6 @@
     </p>
   </header>
 
-  <!-- ===== Paragraph 1: The hook ===== -->
   <section class="prose">
     <p>
       Every year, the Chicago Department of Public Health (CDPH) sends inspectors to
@@ -43,7 +42,6 @@
     </p>
   </section>
 
-  <!-- ===== Central interactive visualization ===== -->
   <figure class="viz viz-hero">
     <iframe src="charts/main_dashboard.html" loading="lazy" title="Pass rates by facility type, 2010-2025"></iframe>
     <figcaption>
@@ -53,7 +51,6 @@
     </figcaption>
   </figure>
 
-  <!-- ===== Paragraph 2: What happened ===== -->
   <section class="prose">
     <h2>The July 2018 Cliff</h2>
     <p>
@@ -71,7 +68,6 @@
     </p>
   </section>
 
-  <!-- ===== Contextual viz 1: dumbbell ===== -->
   <figure class="viz">
     <iframe src="charts/before_after.html" loading="lazy" title="Pass rates 2017 vs 2019"></iframe>
     <figcaption>
@@ -82,15 +78,18 @@
     </figcaption>
   </figure>
 
-  <!-- ===== Paragraph 3: Recovery divergence ===== -->
   <section class="prose">
     <h2>Different Sectors, Different Recoveries</h2>
     <p>
-      What's most interesting in the post-2019 data isn't the drop itself — it's
-      who recovered, and how fast. Childcare facilities (Children's Services
-      Facilities and the two daycare categories) climbed back to pass rates of
-      65–77% by 2025. Restaurants, grocery stores, and bakeries did not. They sit
-      stubbornly in the 60–65% range, even five years on.
+      By 2025 most facility types had clawed back to roughly where they sat
+      before the rule change — restaurants and bakeries hovering in the low 60s,
+      childcare facilities in the mid-70s, schools and long-term-care somewhere
+      in between. What's striking is that the pre-2018 hierarchy reappeared
+      almost intact: the sectors that ran high before the cliff (Children's
+      Services Facilities, the two daycare categories) are running high again,
+      and the sectors that ran lower (Restaurants, Grocery Stores, Long Term
+      Care) are still lower. The cliff was universal, but the recovery wasn't
+      a level-up — it was a return to baseline.
     </p>
     <p>
       A second, smaller dip in 2020 cuts across every facility type. That one's
@@ -100,7 +99,6 @@
     </p>
   </section>
 
-  <!-- ===== Contextual viz 2: heatmap ===== -->
   <figure class="viz">
     <iframe src="charts/heatmap.html" loading="lazy" title="Pass rate heatmap by facility type and year"></iframe>
     <figcaption>
@@ -110,7 +108,30 @@
     </figcaption>
   </figure>
 
-  <!-- ===== Paragraph 4: What it means ===== -->
+  <section class="prose">
+    <h2>Are Inspectors Keeping Up?</h2>
+    <p>
+      The pass-rate story is really a story about <em>which</em> inspections
+      happen, not just how they're scored. To put inspection volume in context,
+      we pulled a second City of Chicago dataset: <strong>Business Licenses</strong>,
+      which records every food-related license the city issues. Comparing the
+      two side by side reveals whether CDPH's inspection capacity has scaled
+      with the food economy itself.
+    </p>
+  </section>
+
+  <figure class="viz">
+    <iframe src="charts/licenses_vs_inspections.html" loading="lazy"
+            title="Inspections vs new food licenses by year"></iframe>
+    <figcaption>
+      Two scales, one chart. The navy line tracks how many inspections CDPH
+      conducted each year; the dashed red line tracks how many new food-related
+      business licenses the city issued. When the gap widens, it means more
+      establishments are being licensed than inspected — a coverage gap that
+      affects how meaningful any single pass rate really is.
+    </figcaption>
+  </figure>
+
   <section class="prose">
     <h2>What This Means for Chicago Diners</h2>
     <p>
@@ -133,7 +154,6 @@
     </p>
   </section>
 
-  <!-- ===== Methodology + citations ===== -->
   <section class="methodology">
     <h2>Methodology &amp; Sources</h2>
 
@@ -149,11 +169,13 @@
       facility types.
     </p>
 
-    <h3>Contextual dataset (referenced)</h3>
+    <h3>Contextual dataset (used in licenses-vs-inspections chart)</h3>
     <p>
       <strong>Chicago Business Licenses</strong>. City of Chicago Open Data Portal.
       <a href="https://data.cityofchicago.org/Community-Economic-Development/Business-Licenses/r5kz-chrr"
          target="_blank" rel="noopener">data.cityofchicago.org/Community-Economic-Development/Business-Licenses/r5kz-chrr</a>.
+      Filtered to food-related license categories (Retail Food, Wholesale Food, Restaurant,
+      Bakery, Grocery) and aggregated to annual counts of newly issued licenses, 2010–2025.
     </p>
 
     <h3>Regulatory background</h3>
@@ -168,7 +190,7 @@
       Jupyter notebook:
       <a href="notebook/FP_Part2_IS445.ipynb" target="_blank" rel="noopener">FP_Part2_IS445.ipynb</a>
       (also viewable directly on
-      <a href="https://github.com/hari200698/hari200698.github.io/blob/main/projects/chicago-food-inspections/notebook/FP_Part2_IS445.ipynb"
+      <a href="https://github.com/[YOUR_USERNAME]/[YOUR_USERNAME].github.io/blob/main/projects/chicago-food-inspections/notebook/FP_Part2_IS445.ipynb"
          target="_blank" rel="noopener">GitHub</a>).
     </p>
 

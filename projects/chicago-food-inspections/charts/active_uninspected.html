@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"grid": true, "gridColor": "#EEE", "labelFontSize": 11, "titleFontSize": 12}}, "layer": [{"mark": {"type": "bar", "color": "#c0392b"}, "encoding": {"tooltip": [{"field": "Display Label", "title": "Category", "type": "nominal"}, {"field": "Active Licenses", "format": ",", "title": "Active mature licenses", "type": "quantitative"}, {"field": "Inspected", "format": ",", "title": "Inspected", "type": "quantitative"}, {"field": "Never Inspected", "format": ",", "title": "Never inspected", "type": "quantitative"}, {"field": "Pct Never Inspected", "format": ".1f", "title": "% never inspected", "type": "quantitative"}], "x": {"field": "Pct Never Inspected", "scale": {"domain": [0, 100]}, "title": "% of active mature licenses never inspected", "type": "quantitative"}, "y": {"axis": {"labelFontSize": 12, "labelLimit": 320}, "field": "Display Label", "sort": ["Shared Kitchen Supplemental *", "Wholesale Food *", "Mobile Food (trucks & carts)", "Retail Food (restaurants, grocery, bakery)", "Shared Kitchen"], "title": null, "type": "nominal"}}}, {"mark": {"type": "text", "align": "left", "color": "#444", "dx": 8, "fontSize": 11}, "encoding": {"text": {"field": "count_label", "type": "nominal"}, "x": {"field": "Pct Never Inspected", "type": "quantitative"}, "y": {"field": "Display Label", "sort": ["Shared Kitchen Supplemental *", "Wholesale Food *", "Mobile Food (trucks & carts)", "Retail Food (restaurants, grocery, bakery)", "Shared Kitchen"], "type": "nominal"}}}], "data": {"name": "data-61112699b862d4136ae53bafec1fe1dd"}, "height": 280, "title": {"text": "Where Chicago's Inspection Gaps Concentrate", "anchor": "start", "color": "#2c3e50", "fontSize": 15, "subtitle": "Share of long-active food licenses (2+ years) that have never received a CDPH inspection.", "subtitleColor": "#666", "subtitleFontSize": 11}, "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json", "datasets": {"data-61112699b862d4136ae53bafec1fe1dd": [{"Display Label": "Wholesale Food *", "license_description": "Wholesale Food Establishment", "Active Licenses": 347, "Inspected": 46, "Never Inspected": 301, "Pct Never Inspected": 86.7, "count_label": "301 of 347"}, {"Display Label": "Retail Food (restaurants, grocery, bakery)", "license_description": "Retail Food Establishment", "Active Licenses": 9213, "Inspected": 9099, "Never Inspected": 114, "Pct Never Inspected": 1.2, "count_label": "114 of 9,213"}, {"Display Label": "Shared Kitchen Supplemental *", "license_description": "Food - Shared Kitchen - Supplemental", "Active Licenses": 81, "Inspected": 8, "Never Inspected": 73, "Pct Never Inspected": 90.1, "count_label": "73 of 81"}, {"Display Label": "Mobile Food (trucks & carts)", "license_description": "Mobile Food License", "Active Licenses": 97, "Inspected": 76, "Never Inspected": 21, "Pct Never Inspected": 21.6, "count_label": "21 of 97"}, {"Display Label": "Shared Kitchen", "license_description": "Food - Shared Kitchen", "Active Licenses": 17, "Inspected": 17, "Never Inspected": 0, "Pct Never Inspected": 0.0, "count_label": "0 of 17"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

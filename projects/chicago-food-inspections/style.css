@@ -125,6 +125,10 @@ h1 {
   height: 780px;
 }
 
+.viz-tall iframe {
+  height: 840px;
+}
+
 .viz figcaption {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 14px;
